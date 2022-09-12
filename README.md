@@ -8,6 +8,18 @@ This abundnce of people sentiment can be harnessed to predict bitcoin prices. Ge
 ### Dataset
 Our compiled dataset comes from various soucrces. The tweets data for 16M tweets was obtained from kaggle. Where as other features were scrapped from various websites like google trends, bitinfocharts.com, etc.
 
+Here is the data description of the attributes used.
+
+Bitcoin inflation rate: The percentage of new coins issued, divided by the current supply.
+Mining Difficulty: The current estimated number of hashes required to mine a block.
+Hash rate: The average estimated number of hashes per second produced by the miners in the network.
+Transaction count: Bitcoin transactions per day.
+Vol. : Trading Volume of bitcoin
+Change %: % change since last day
+Total tweets: No of tweets per day related to bitcoin
+Google trends: Google search trend score for bitcoin
+new_senti : Newly generated sentiment scores that are weighted using retweets, replies and sentiment scores.
+
 ### State of the Art Time Series forecasting models
 
 **Temporal fusion transformer(TFT)**
